@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <script src="https://www.paypal.com/sdk/js?client-id=AXfyu-OdOP3f-ynmKiWrxUr8qYWm8ireUNH8ylgBftqwAuG6Qrd5rgJ6vrUIb667eiMeJThuN30-0BCq&currency=USD"></script>
+        <script src="https://www.paypal.com/sdk/js?client-id="aqui va tu clientID"&currency=USD"></script>
         <title>Prueba Test</title>
       </Head>
       <Component {...pageProps} />
